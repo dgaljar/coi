@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hr-HR">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.0/swiper-bundle.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Simple swiper section</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <swiper-carousel>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="img/mobble-black-model-pos-1_900x.png" alt="model-1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/mobble-ink-model-pos-8_900x.png" alt="model-2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/mobble-black-model-pos-2_900x.png" alt="model-3">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/mobble-ink-model-pos-8_900x.png" alt="model-2">
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.3334 5.33333H3.22002L6.94669 1.60667L6.00002 0.666666L0.666687 6L6.00002 11.3333L6.94002 10.3933L3.22002 6.66667H11.3334V5.33333Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.00002 0.666666L5.06002 1.60667L8.78002 5.33333H0.666687V6.66667H8.78002L5.06002 10.3933L6.00002 11.3333L11.3334 6L6.00002 0.666666Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <button id="swiper-toggle">Toggle Swiper</button>
+                </div>
+            </swiper-carousel>
+        </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.0/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
